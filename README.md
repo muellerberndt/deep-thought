@@ -1,14 +1,15 @@
 
-# DEEP-THOUGHT: A self-referential, category-theoretic model of "life, the universe, and everything"
+# DEEP THOUGHT: A self-referential, category-theoretic model of "life, the universe, and everything"
+
+DEEP THOUGHT is a theory that builds reality from a single act of self-reference, allowing a category-theoretic web of relations grow under symmetry, integration, and entropy so that spacetime, particles, and observers all emerge as fixed points of the  same algebraic dynamics. With only one object, one arrow, and three optimisation drives, it reproduces key facts of our world such as 3 + 1 D spacetime and three fermion generations. It stakes cfalsifiable claims (e.g., a nano-hertz gravitational-wave peak), making it an economical yet testable path toward a unified picture of "life, the universe, and everything."
 
 ## Introduction — Re-examining Reality from First Principles
 
-Most physical theories begin by assuming a stage—spacetime, fields, or information bits—and then add rules.  
-Here we go one step further back and ask:
+Most physical theories begin by assuming a stage—spacetime, fields, or information bits—and then add rules. Here we take a step back and ask:
 
 > **What is truly fundamental if we remove every prior assumption?**
 
-Our answer in **DEEP-THOUGHT** is deliberately spare:
+Our answer is deliberately spare:
 
 1. **A single act of self-reference**  
    The minimal statement the universe can make about itself is a loop that says "I relate to myself."
@@ -18,7 +19,7 @@ Our answer in **DEEP-THOUGHT** is deliberately spare:
    Each new arrow records that one part of the network has become significant relative to another; an "observation" is exactly this addition of a morphism.  
 
 These are the *elemental parts*:
-ss
+
 | Element | Plain description | Categorical form |
 |---------|-------------------|------------------|
 | Self-reference | The universe’s initial “strange loop.” | `id_I : I → I` |
@@ -28,9 +29,7 @@ ss
 
 ## Key Features & Derivations
 
-
-The main goal of DEEP-THOUGHT is ti reconstruct several of modern physics that are normally taken as axioms.  Spacetime dimensionality, the number of fermion families, and familiar gauge groups arise as *consequences* of the same optimisation that drives the network’s growth.  Phenomena often handled separately—thermodynamic time, black-hole entropy, even the emergence of conscious observers—fall under a single relational logic. The same framework then pushes past today’s data to make concrete, falsifiable predictions: a nano-Hertz gravitational-wave peak, specific lensing signatures for “"dark" curvature, and a firm "no to any fourth fermion generation.  The table that follows summarises both these reconstructed features and the open predictions that can make or break the model.
-
+The main goal of DEEP THOUGHT is to reconstruct several of modern physics that are normally taken as axioms. Spacetime dimensionality, the number of fermion families, and familiar gauge groups arise as *consequences* of the same optimisation that drives the network’s growth. Phenomena often handled separately, like thermodynamic time, black-hole entropy, even the emergence of conscious observers, fall under a single relational logic. The same framework then pushes past today’s data to make concrete, falsifiable predictions: a nano-Hertz gravitational-wave peak, specific lensing signatures for "dark" curvature, and a firm "no" to any fourth fermion generation.  The table that follows summarises both these reconstructed features and the open predictions that can make or break the model.
 
 | # | Phenomenon | How it emerges in DEEP-THOUGHT | Type |
 |---|------------|--------------------------------|--------|
@@ -57,6 +56,6 @@ The main goal of DEEP-THOUGHT is ti reconstruct several of modern physics that a
 * **Physical laws are fixed points**  
   Conservation laws, gauge symmetries, and unitarity appear as relational invariants that persist under continued growth.  
 
-In short, DEEP-THOUGHT treats reality as a self-maintaining network of distinctions.  Objects, space, and even minds are patterns that stabilise inside that network—much as "42" is meaningful only within the pages of a certain electronic guide.
+In short, DEEP THOUGHT treats reality as a self-maintaining network of distinctions.  Objects, space, and even minds are patterns that stabilise inside that network - much as "42" is meaningful only within the pages of a certain electronic guide.
 
 --- 
