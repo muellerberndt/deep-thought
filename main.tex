@@ -25,7 +25,7 @@
 \maketitle
 
 \begin{abstract}
-We propose a maximally simple, relational theory of reality grounded in category theory. In this model, existence arises as a self-referential bootstrap: starting from an initial void'' object that refers only to itself, a network of entities and relations creates subjective meaning without external input. Using a dagger-compact closed monoidal topos as the mathematical framework, the theory naturally incorporates key principles of physics---relativity of observations, causal structure, and quantum mechanics---as emergent properties of the relational network. We show how space, time, and matter can emerge from ``iterative meaning assignment'' morphisms, and how known features of our Universe (e.g., 3+1 dimensions, three generations of fundamental fermions) naturally result from optimizing symmetry, integration, and entropy in the relational graph. We contrast this approach with other emergent reality frameworks (causal set theory, Wolfram's hypergraph model, etc.), highlighting the advantages of a category-theoretic formulation in unifying physics and information. Finally, we
+We propose a maximally simple, relational theory of reality grounded in category theory. In this model, existence arises as a self-referential bootstrap: starting from an initial ``void'' object that refers only to itself, a network of entities and relations creates subjective meaning without external input. Using a dagger-compact closed monoidal topos as the mathematical framework, the theory naturally incorporates key principles of physics---relativity of observations, causal structure, and quantum mechanics---as emergent properties of the relational network. We show how space, time, and matter can emerge from ``iterative meaning assignment'' morphisms, and how known features of our Universe (e.g., 3+1 dimensions, three generations of fundamental fermions) naturally result from optimizing symmetry, integration, and entropy in the relational graph. We contrast this approach with other emergent reality frameworks (causal set theory, Wolfram's hypergraph model, etc.), highlighting the advantages of a category-theoretic formulation in unifying physics and information. Finally, we
  discuss testable predictions---for example, viewing dark matter as a manifestation of relational curvature rather than a new particle---and suggest ways this model could be experimentally or observationally falsified. This work positions ``reality as relationships'' not just as a philosophical stance but as a rigorous computational theory of everything, from quantum physics to consciousness.
 
 \end{abstract}
@@ -269,54 +269,59 @@ In essence, most near-term tests of our theory coincide with tests of other new 
 \label{subsec:nHz_GW}
 
 \paragraph{Claim.}
-The self-referential growth dynamics of \textsc{Deep-Thought} predict a
-\emph{stochastic gravitational-wave background peaking near
-\(f_{0}\!\sim\!10^{-8}\,\mathrm{Hz}\)}, i.e.\ in the nano-Hertz band now
-probed by pulsar-timing arrays.
+The growth rules of \textsc{Deep-Thought} predict a broad stochastic
+gravitational-wave background whose present-day spectrum peaks somewhere in the
+\emph{nano-Hertz decade}, i.e.\ \(f_0 \sim 10^{-9}\text{–}10^{-8}\,\mathrm{Hz}\).
 
 \paragraph{Derivation.}
 
 \begin{enumerate}
   \item \textbf{Minimal coherent loop.}  
-        After the first symmetry-breaking step the relational web
-        contains a closed path of length
+        With three spatial dimensions \((d=3)\) and three fermion
+        generations \((n_g=3)\), the first closed path has length  
         \[
-          \lambda_* \;=\; (d+n_g)\,\ell_{\mathrm P}
-                     \;=\; 6\,\ell_{\mathrm P}
-                     \;\simeq\;9.7\times10^{-35}\,\text{m},
+          \lambda_* = (d+n_g)\,\ell_{\mathrm P} = 6 \times 1.616 \times 10^{-35}\,\mathrm{m}
+                     \simeq 9.70 \times 10^{-35}\,\mathrm{m}.
         \]
-        where \(d=3\), \(n_g=3\), and
-        \(\ell_{\mathrm P}=1.616\times10^{-35}\,\text{m}\).
   \item \textbf{Fundamental tensor mode at emission.}  
-        Treating the loop as a ring resonator,
+        The fundamental standing spin-2 mode on this “ring” has  
         \[
-          f_* \;=\;\frac{c}{\lambda_*}
-               \;\approx\;\frac{3.00\times10^{8}}
-                               {9.7\times10^{-35}}
-               \;\simeq\;3.1\times10^{42}\,\text{Hz}.
+          f_* = \frac{c}{\lambda_*}
+               = \frac{2.998\times10^{8}\,\mathrm{m\,s^{-1}}}
+                      {9.70\times10^{-35}\,\mathrm{m}}
+               \simeq 3.1 \times 10^{42}\,\mathrm{Hz}.
         \]
   \item \textbf{Cosmological red-shift.}  
-        Standard thermal history implies a total scale-factor growth  
-        \(a_0/a_* \sim 10^{51}\)  
-        (≈\,$10^{26}$ from inflation, \(10^{23}\) during the radiation
-        era, \(10^{3.5}\) in the matter/\(\Lambda\) era), so
+        Standard thermal history gives a total scale-factor growth  
+        \(a_0/a_* \approx 10^{51}\)  
+        (roughly \(10^{26}\) from inflation, \(10^{23}\) during the
+        radiation era, and \(10^{3.5}\) from equality to today).  Hence
         \[
-          f_0 \;=\; f_* \Bigl(\frac{a_*}{a_0}\Bigr)
-               \;\approx\;3.1\times10^{42}\,\text{Hz}\times10^{-51}
-               \;\simeq\;3\times10^{-9}\text{--}10^{-8}\,\text{Hz}.
+          f_0 = f_* \Bigl(\frac{a_*}{a_0}\Bigr)
+               \approx 3.1\times10^{42}\,\mathrm{Hz}\,\times 10^{-51}
+               \simeq 3 \times 10^{-9}\,\mathrm{Hz}.
+        \]
+        Allowing a conservative \(\pm\,2\) decades uncertainty in
+        \(a_0/a_*\) (inflationary e-fold count, reheating temperature)
+        places the relic peak in the band
+        \[
+          10^{-10}\,\mathrm{Hz} \;\lesssim\; f_0 \;\lesssim\; 10^{-8}\,\mathrm{Hz}.
         \]
 \end{enumerate}
 
 \paragraph{Observational outlook.}
-A broad peak in this decade band would support the growth-layer scaling
-in \textsc{Deep-Thought}; its absence (or a dominant peak far outside
-\(10^{-10}\!-\!10^{-6}\,\mathrm{Hz}\)) would challenge the model.
+Pulsar-timing arrays (IPTA, NANOGrav, SKA) are most sensitive precisely
+in this nano-Hertz decade; a detected stochastic excess there would
+support the layer-count scaling of \textsc{Deep-Thought}. A dominant
+peak well outside \(10^{-10}\text{–}10^{-8}\,\mathrm{Hz}\), or its
+complete absence at PTA sensitivity, would challenge the model.
 
-\paragraph{Caveat.}
-The \(10^{51}\) red-shift factor is based on a coarse-grained cosmology
-and should ultimately be derived from the entropy budget of the
-dagger-compact topos; the order-of-magnitude prediction remains
-testable regardless of such refinements.
+\paragraph{Remarks on uncertainty.}
+The \(\sim 51\)-decade red-shift is taken from mainstream
+\(\Lambda\mathrm{CDM}\) benchmarks; a categorical derivation of the
+entropy-per-layer budget is work in progress.  Until then, the model
+predicts a \emph{band}, not an exact frequency, centred on the
+nano-Hertz decade.
 
 \section{Conclusion}
 
