@@ -7,7 +7,7 @@ This project is a work-in-progress. To make it worth publishing, we still need t
 
 ## Introduction — Re-examining Reality from First Principles
 
-Most physical theories begin by assuming a stage—spacetime, fields, or information bits—and then add rules. Here we take a step back and ask:
+We take a step back and ask:
 
 > **What is truly fundamental if we remove every prior assumption?**
 
