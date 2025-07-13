@@ -1,7 +1,9 @@
 
 # DEEP THOUGHT: A self-referential, category-theoretic model of "life, the universe, and everything"
 
-DEEP THOUGHT is a theory that builds reality from a single act of self-reference, allowing a category-theoretic web of relations grow under symmetry, integration, and entropy so that spacetime, particles, and observers all emerge as fixed points of the  same algebraic dynamics. With only one object, one arrow, and three optimisation drives, it reproduces key facts of our world such as 3 + 1 D spacetime and three fermion generations. It stakes cfalsifiable claims (e.g., a nano-hertz gravitational-wave peak), making it an economical yet testable path toward a unified picture of "life, the universe, and everything."
+DEEP THOUGHT is a theory that builds reality from a single act of self-reference, allowing a category-theoretic web of relations grow under symmetry, integration, and entropy so that spacetime, particles, and conscious observers all emerge as fixed points of the same algebraic dynamics. With only one object, one arrow, and three optimisation drives, it reproduces key facts of our world such as 3+1D spacetime and three fermion generations. Basic features of the Universe, such as its spacetime geometry, are discovered entirely via natural selection. The theory stakes falsifiable claims (e.g., a nano-hertz gravitational-wave peak), making it an economical yet testable path toward a unified picture of "life, the universe, and everything."
+
+This project is a work-in-progress. To make it worth publishing, we still need to generate more testable predictions. The current WIP version of the paper can be downloaded [here](https://github.com/muellerberndt/deep-tought/blob/main/paper/DEEP_THOUGHT_v0.1.pdf). 
 
 ## Introduction — Re-examining Reality from First Principles
 
@@ -26,6 +28,8 @@ These are the *elemental parts*:
 | Relation | The only substantive data. | Morphism |
 | Composition | How complex structures grow. | Sequential / tensor product |
 | Three drives | Symmetry, Integration (Φ), Entropy. | Variational principles on the category |
+
+In short, the Universe "grows" as a category-theoretic web of relations under primitive optimization drives.
 
 ## Key Features & Derivations
 
