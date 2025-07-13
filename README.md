@@ -29,7 +29,7 @@ These are the *elemental parts*:
 | Composition | How complex structures grow. | Sequential / tensor product |
 | Three drives | Symmetry, Integration (Φ), Entropy. | Variational principles on the category |
 
-We propose that a dagger-compact closed monoidal topos* is a sufficient algebraic substrate from which a universe sharing our key features can emerge through self-referential growth. We also conjecture that our particular Universe is selected by the unique balance point where three competing drives are simultaneously extremised:
+We propose that category theory is the language of reality itself, and we conjecture that our particular Universe is selected by the unique balance point where three competing drives are simultaneously extremised:
 
 1. **maximal symmetry** (coherence),  
 2. **maximal integration** (Φ), and  
