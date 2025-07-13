@@ -3,6 +3,12 @@
 
 DEEP THOUGHT is a theory that builds reality from a single act of self-reference, allowing a category-theoretic web of relations to grow under symmetry, integration, and entropy so that spacetime, particles, and conscious observers all emerge as fixed points of the same algebraic dynamics. With only one object, one arrow, and three optimisation drives, it reproduces key facts of our world such as 3+1D spacetime and three fermion generations. Basic features of the Universe, such as its spacetime geometry, are discovered entirely via natural selection. The theory stakes falsifiable claims (e.g., a nano-hertz gravitational-wave peak), making it an economical yet testable path toward a unified picture of "life, the universe, and everything."
 
+We propose that a **dagger-compact closed monoidal topos** is a sufficient algebraic substrate from which a universe sharing our key features can emerge through self-referential growth. We also **conjecture** that our particular Universe is selected by the unique balance point where three competing drives are simultaneously extremised:
+
+1. **maximal symmetry** (coherence),  
+2. **maximal integration** (Φ), and  
+3. **maximal entropy** (diversity)  
+
 This project is a work-in-progress. To make it worth publishing, we still need to generate more testable predictions. The current WIP version of the paper can be downloaded [here](https://github.com/muellerberndt/deep-tought/blob/main/paper/DEEP_THOUGHT_v0.1.pdf). 
 
 ## Introduction — Re-examining Reality from First Principles
