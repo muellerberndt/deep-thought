@@ -14,7 +14,7 @@ Most physical theories begin by assuming a stage—spacetime, fields, or informa
 Our answer is deliberately spare:
 
 1. **A single act of self-reference**  
-   The minimal statement the universe can make about itself is a loop that says "I relate to myself."
+   The minimal statement the universe can make about itself is a loop that says "I relate to myself" (identity morphism).
 2. **Relations, not things, as primitives**  
    Everything else is built by composing, tensored, or dualising such arrows inside a **dagger-compact closed monoidal topos**.  
 3. **Meaning assigned through interaction**  
