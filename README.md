@@ -1,55 +1,73 @@
 # DEEP-THOUGHT: A self-referential, category-theoretic model of reality
 
-DEEP-THOUGHT is a proposal for how reality can arise from nothing but a single act of self-reference.
+DEEP-THOUGHT is a proposal for how the Universe can emerge from the simplest possible starting point, without the need for an external first cause.  
+It begins with only one primitive: a single relation of something to itself.  
+This primitive is the minimal act of distinction: recognising that one thing is not another, and relating it back to itself.
 
-DEEP-THOUGHT begins from the most minimal possible starting point: 
-a single distinction — the recognition that one thing is not another —  
-and the act of relating that thing to itself.  
-This is the only precondition: *relation* as a primitive.
+From this starting point, new relations form by composition, pairing, and symmetry.  
+Each new relation changes the context of all others, assigning **meaning** to the entire network.  
+Reality is modelled as this network repeatedly assigning meaning to itself.  
+Over time, the network grows into a self-referential structure rich enough to display the large-scale patterns we call spacetime, matter, forces, and observers.
 
-From there, the Universe evolves by a single principle:  
-**meaning is assigned when one part of the network of relations changes in the context of others**.  
-Each new relation adds structure to the whole, changing the “meaning” of everything already present.  
-Over time, these assignments of meaning build an ever-richer self-referential network.
+The theory is expressed in the **free symmetric monoidal dagger-compact category** on a single generating object.  
+Morphisms are built from identities, symmetries, cups, caps, tensor product, and composition.  
+The dagger is diagrammatic reflection.
 
-The mathematical core is the **free symmetric monoidal dagger-compact category** on one object.  
-Morphisms are built from identities, symmetries, cups, caps, composition, and tensor product; the dagger is diagrammatic reflection.  
-Dynamics proceeds by applying a local transformation to the current diagram and feeding part of the output back into its input via the categorical trace, ensuring self-reference at every stage.
-
-This project is in active development. The current working paper can be found [here](https://github.com/muellerberndt/deep-thought/blob/main/paper/DEEP_THOUGHT_v0.1.pdf).
+---
 
 ## Minimal assumptions
 
 1. **Self-reference**  
-   The initial state is the identity morphism on the generating object: a loop relating to itself.
+   The initial state is the identity morphism on the generating object: a loop relating only to itself.
 
 2. **Relations as primitives**  
-   Objects have no intrinsic attributes; all meaning comes from morphisms.
+   Objects have no intrinsic properties; all structure comes from how they relate.
 
 3. **Evolution by feedback**  
-   The update rule is  
-   \[
-   D_{t+1} = \mathrm{Tr}_X\!\left(K_t\circ(D_t\otimes 1_X)\right),
-   \]
-   with \(K_t\) chosen to optimise symmetry, integration \((\Phi)\), and entropy.
+   The state of the Universe at step `t` is a diagram `D_t`.  
+   It evolves by applying a local transformation `K_t` and feeding part of the result back into its input using the categorical trace:  
+   `D_{t+1} = Tr_X( K_t ∘ ( D_t ⊗ 1_X ) )`  
+   This ensures that every new state is generated from, and explained by, the state before it.
+
+4. **Optimisation drives**  
+   At each step, `K_t` is chosen to:
+   - maximise **symmetry** (`S`)
+   - maximise **integration** (`Φ`)
+   - minimise **entropy** (`H`)
+
+   These simple drives favour structures that are coherent, unified, and yet sufficiently differentiated.
+
+---
 
 ## Emergent physics
 
-The same growth and optimisation scheme accounts for key features of our Universe:
+From this single self-referential growth process, the following features appear:
 
 | Phenomenon | Mechanism in DEEP-THOUGHT | Status |
 |------------|---------------------------|--------|
-| **3 + 1 spacetime** | Spectral dimension of the interaction graph stabilises at \(d_s\approx 3\); trace direction provides time ordering. | derived |
-| **Standard Model gauge groups** | Stable valences 1, 2, 3 give local automorphism groups U(1), SU(2), SU(3). | derived |
-| **Three fermion families** | CP-violation requires ≥3; entropy penalises more; optimisation picks exactly three. | derived |
+| **3+1 spacetime** | The interaction graph of `D_t` has spectral dimension ≈ 3; the trace direction provides a time ordering. | derived |
+| **Standard Model gauge groups** | Stable local valences 1, 2, 3 correspond to automorphism groups U(1), SU(2), SU(3). | derived |
+| **Three fermion families** | CP-violation requires at least 3; entropy penalises more; optimisation yields exactly three. | derived |
 | **Arrow of time** | Local reversibility from the dagger, global irreversibility from entropy growth. | qualitative |
-| **Dark-matter-like effects** | Curvature in relational geometry mimics unseen mass; predicts lensing–entropy correlation. | testable |
+| **Dark-matter-like effects** | Relational curvature mimics unseen mass; predicts lensing–entropy correlations. | testable |
 | **No fourth fermion family** | Higher generations fail optimisation; absence is a prediction. | testable |
-| **Primordial GW feature** | First global oscillation mode redshifted to nHz band; predicts a break in PTA spectra. | testable |
+| **Primordial gravitational wave feature** | First global oscillation mode redshifted to nano-Hertz frequencies; predicts a spectral break detectable by PTAs. | testable |
+
+---
 
 ## Why this matters
 
-- **Unifies** spacetime, matter, and observers in a single generative rule.
-- **Derives** structural features normally taken as axioms.
-- **Predicts** observational signatures in gravitational waves, lensing, and particle content.
-- **Falsifiable**: failure of any key prediction forces revision.
+- **No first cause required**: reality is a closed, self-referential loop that explains itself.
+- **Single generative rule**: one process produces space, matter, forces, and observers.
+- **Derivation of structure**: features normally assumed in physics (spacetime dimension, gauge groups, particle families) appear as consequences of the optimisation.
+- **Predictive power**: the framework yields concrete observational tests in gravitational waves, lensing, and particle physics.
+- **Falsifiability**: failure of a key prediction forces revision of the model.
+
+---
+
+## Current status
+
+This is an active research project. The current working paper can be found here:  
+[DEEP-THOUGHT v0.1 PDF](https://github.com/muellerberndt/deep-thought/blob/main/paper/DEEP_THOUGHT_v0.1.pdf)
+
+The next steps are to refine the optimisation rule, test its predictions with simulations, and compare directly with astrophysical and particle physics data.
