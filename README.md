@@ -1,69 +1,55 @@
+# DEEP-THOUGHT: A self-referential, category-theoretic model of reality
 
-# DEEP THOUGHT: A self-referential, category-theoretic model of "life, the universe, and everything"
+DEEP-THOUGHT is a proposal for how reality can arise from nothing but a single act of self-reference.
 
-DEEP THOUGHT is a theory that builds reality from a single act of self-reference, allowing a category-theoretic web of relations to grow under symmetry, integration, and entropy so that spacetime, particles, and conscious observers all emerge as fixed points of the same algebraic dynamics. With only one object, one arrow, and three optimisation drives, it reproduces key facts of our world such as 3+1D spacetime and three fermion generations. Basic features of the Universe, such as its spacetime geometry, are discovered entirely via natural selection.
+DEEP-THOUGHT begins from the most minimal possible starting point: 
+a single distinction — the recognition that one thing is not another —  
+and the act of relating that thing to itself.  
+This is the only precondition: *relation* as a primitive.
 
-This project is a work-in-progress. To make it worth publishing, we still need to generate more testable predictions. The current WIP version of the paper can be downloaded [here](https://github.com/muellerberndt/deep-tought/blob/main/paper/DEEP_THOUGHT_v0.1.pdf). 
+From there, the Universe evolves by a single principle:  
+**meaning is assigned when one part of the network of relations changes in the context of others**.  
+Each new relation adds structure to the whole, changing the “meaning” of everything already present.  
+Over time, these assignments of meaning build an ever-richer self-referential network.
 
-## Introduction — Re-examining Reality from First Principles
+The mathematical core is the **free symmetric monoidal dagger-compact category** on one object.  
+Morphisms are built from identities, symmetries, cups, caps, composition, and tensor product; the dagger is diagrammatic reflection.  
+Dynamics proceeds by applying a local transformation to the current diagram and feeding part of the output back into its input via the categorical trace, ensuring self-reference at every stage.
 
-We take a step back and ask:
+This project is in active development. The current working paper can be found [here](https://github.com/muellerberndt/deep-thought/blob/main/paper/DEEP_THOUGHT_v0.1.pdf).
 
-> **What is truly fundamental if we remove every prior assumption?**
+## Minimal assumptions
 
-Our answer is deliberately spare:
+1. **Self-reference**  
+   The initial state is the identity morphism on the generating object: a loop relating to itself.
 
-1. **A single act of self-reference**  
-   The minimal statement the universe can make about itself is a loop that says "I relate to myself" (identity morphism).
-2. **Relations, not things, as primitives**  
-   Everything else is built by composing, tensored, or dualising such arrows inside a **dagger-compact closed monoidal topos**.  
-3. **Meaning assigned through interaction**  
-   Each new arrow records that one part of the network has become significant relative to another; an "observation" is exactly this addition of a morphism.  
+2. **Relations as primitives**  
+   Objects have no intrinsic attributes; all meaning comes from morphisms.
 
-These are the *elemental parts*:
+3. **Evolution by feedback**  
+   The update rule is  
+   \[
+   D_{t+1} = \mathrm{Tr}_X\!\left(K_t\circ(D_t\otimes 1_X)\right),
+   \]
+   with \(K_t\) chosen to optimise symmetry, integration \((\Phi)\), and entropy.
 
-| Element | Plain description | Categorical form |
-|---------|-------------------|------------------|
-| Self-reference | The universe’s initial “strange loop.” | `id_I : I → I` |
-| Relation | The only substantive data. | Morphism |
-| Composition | How complex structures grow. | Sequential / tensor product |
-| Three drives | Symmetry, Integration (Φ), Entropy. | Variational principles on the category |
+## Emergent physics
 
-We propose that category theory is the language of reality itself, and we conjecture that our particular Universe is selected by the unique balance point where three competing drives are simultaneously extremised:
+The same growth and optimisation scheme accounts for key features of our Universe:
 
-1. **maximal symmetry** (coherence),  
-2. **maximal integration** (Φ), and  
-3. **maximal entropy** (diversity)  
+| Phenomenon | Mechanism in DEEP-THOUGHT | Status |
+|------------|---------------------------|--------|
+| **3 + 1 spacetime** | Spectral dimension of the interaction graph stabilises at \(d_s\approx 3\); trace direction provides time ordering. | derived |
+| **Standard Model gauge groups** | Stable valences 1, 2, 3 give local automorphism groups U(1), SU(2), SU(3). | derived |
+| **Three fermion families** | CP-violation requires ≥3; entropy penalises more; optimisation picks exactly three. | derived |
+| **Arrow of time** | Local reversibility from the dagger, global irreversibility from entropy growth. | qualitative |
+| **Dark-matter-like effects** | Curvature in relational geometry mimics unseen mass; predicts lensing–entropy correlation. | testable |
+| **No fourth fermion family** | Higher generations fail optimisation; absence is a prediction. | testable |
+| **Primordial GW feature** | First global oscillation mode redshifted to nHz band; predicts a break in PTA spectra. | testable |
 
-## Key Features & Derivations
+## Why this matters
 
-The main goal of DEEP THOUGHT is to reconstruct several features of modern physics that are normally taken as axioms. Spacetime dimensionality, the number of fermion families, and familiar gauge groups arise as *consequences* of the same optimisation that drives the network’s growth. Phenomena often handled separately, like thermodynamic time, black-hole entropy, even the emergence of conscious observers, fall under a single relational logic. The same framework then pushes past today’s data to make concrete, falsifiable predictions: a nano-Hertz gravitational-wave peak, specific lensing signatures for "dark" curvature, and a firm "no" to any fourth fermion generation.  The table that follows summarises both these reconstructed features and the open predictions that can make or break the model.
-
-| # | Phenomenon | How it emerges in DEEP-THOUGHT | Type |
-|---|------------|--------------------------------|--------|
-| 1 | **3 + 1 spacetime** | The symmetry–integration–entropy game finds a unique fixed point at *three* relational degrees that can stabilise closed causal loops, plus one “tensor-time” counting composition depth. | derived |
-| 2 | **Three fermion generations** | CP-violation (needed for baryon asymmetry) requires ≥ 3; entropy penalises any extra.  The optimisation therefore settles on exactly three. | derived |
-| 3 | **Standard-Model gauge groups** `U(1) × SU(2) × SU(3)` | Automorphism classes of small sub-graphs naturally fall into 1-, 2-, and 3-node symmetries, reproducing the familiar gauge factors. | qualitative |
-| 4 | **Arrow of time** | While the dagger gives local reversibility, global entropy growth biases the network toward forward composition, matching thermodynamic time. | qualitative |
-| 5 | **Consciousness as integrated sub-graphs** | When a cluster’s relational “Φ” exceeds some threshold of bits, it sustains a self-model—interpreted as the onset of conscious experience. Observers are not added by hand. | testable prediction |
-| 6 | **Dark matter without new particles** | Extra curvature in the morphism web behaves like unseen mass; predicts specific lensing–entropy correlations in galaxies. | testable prediction |
-| 7 | **Primordial GW peak** **Primordial GW relic** | In the nano-Hertz band (≈ 10⁻⁹ – 10⁻⁸ Hz). First global oscillation mode on the minimal Planck loop, red-shifted by ~51 decades | testable prediction |
-| 8 | **No fourth fermion family** | Any additional generation violates the optimisation constraints; its absence is a firm prediction. | testable prediction |
-| 9 | **Fine-structure constant & other numbers** | The hope is that constants are derivable from categorical invariants but this needs yet to be shown | active development |
-
-*If any single entry fails empirically, the model - or at least its current optimisation rules - will need revision.*
-
-### Consequences of the relational stance
-
-* **No observer-independent properties**  
-  A spin, position, or logical truth is always *with respect to* some other part of the network.  
-* **Observation is creative**  
-  Measurement does not reveal a pre-existing bit; it extends the web: \( S \to O \).  
-* **Spacetime emerges, it is not assumed**  
-  The optimisation rules single out a stable 3 + 1-dimensional chart as the most coherent and integrated large-scale description.  
-* **Physical laws are fixed points**  
-  Conservation laws, gauge symmetries, and unitarity appear as relational invariants that persist under continued growth.  
-
-In short, DEEP THOUGHT treats reality as a self-maintaining network of distinctions.  Objects, space, and even minds are patterns that stabilise inside that network - much as "42" is meaningful only within the pages of a certain electronic guide.
-
---- 
+- **Unifies** spacetime, matter, and observers in a single generative rule.
+- **Derives** structural features normally taken as axioms.
+- **Predicts** observational signatures in gravitational waves, lensing, and particle content.
+- **Falsifiable**: failure of any key prediction forces revision.
